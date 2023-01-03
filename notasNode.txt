@@ -1,0 +1,38 @@
+
+* Iniciar el proyecto en node
+
+npm init        // Instala preguntanto todo y se crea el package.json
+npm init -Y     // Instala todo por defecto.
+
+** Instalar un paquete
+En este ejemplo utilizamos un paquete de ejemplo llamado colors, al hacerlo se crea en package.json una dependencia con el nombre del paquete y su version, eso permite saber que paquete es necesario para correr la aplicacion o que paquete necesita la aplicacion. El package-lock.json dice como se deben crear las dependencias y nunca debemos tocarlo.
+
+npm i colors 
+npm install colors
+
+*** Instalar una version especifica de un paquete
+La version que necesitemos es lo que ira despues de la arroba.
+
+npm i colors@1.0.0
+npm install colors@1.0.0
+
+**** Desinstalar un paquete
+
+npm uninstall colors
+
+***** Instalar un paquete en modo desarrollo
+Puede que me interese tener un paquete en modo de desarrollo, eso quiere decir que lo uso para trabajar con el paquete probar mi programa, etc. Pero que no sera parte de mi proyecto, ni se publicara, etc. Estas dependencia se crean en el package.json como devDependencies, eso quiere decir que no seran parte del programa final.
+
+npm install nodemon --save-dev 
+
+****** Actualizar las dependencias
+Ojo al actualizar las dependencias porque puede que se genere algun conflicto, a veces es mejor hacerlo en forma manual 1 por una para ver si alguna en especifico es la que genera el problema.
+
+npm update
+
+******* Reinstalar paquetes si eliminamos node_modules o descargamos backup de git.
+
+npm install
+
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "node-basic",
+  "version": "0.0.1",
+  "description": "Programa simple que crea una tabla de multiplicar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --base=0"
+  },
+  "author": "Marcos Castelli",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.6.2"
+  }
+}
