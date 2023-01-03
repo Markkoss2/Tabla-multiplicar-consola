@@ -1,6 +1,7 @@
 # NOTAS
 Este es mi primer programa de consola, permite crear archivos de tablas de multiplicar y guardarlas en archivos txt individuales.
 
+```
 Opciones:
       --help     Muestra ayuda                                        [booleano]
       --version  Muestra número de versión                            [booleano]
@@ -10,3 +11,4 @@ Opciones:
                  muestra                                              [booleano]
   -h, --hasta    Hasta que numero quiero que se cree la tabla.
                                                             [número] [requerido]
+```
